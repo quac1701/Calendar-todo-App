@@ -1,0 +1,32 @@
+.Todo-title {
+  font-size: 18px;
+  border-bottom: 1px solid #333;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.Todo-description {
+  word-wrap: break-word;
+  padding: 8px;
+  text-align: left;
+}
+
+#buton-confirm {
+    float: right;
+    margin-left: 1px;
+    padding: 10px;
+    border: none;
+    background: lavender;
+    cursor: pointer;
+}
+
+#button-confirm:hover {
+    background: #333;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.react-datepicker-wrapper{
+  margin-left: 10px;  
+}

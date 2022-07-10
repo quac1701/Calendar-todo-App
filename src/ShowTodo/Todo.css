@@ -1,0 +1,55 @@
+.todo{
+  width: 500px;
+  padding: 15px;
+  margin:10px;
+
+  position: relative;
+  background-color: white; 
+  justify-content:center !important;
+  border: 1px solid darkviolet;
+  border-radius: 12px;
+  box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, .1);
+  background: white;
+}
+
+
+.todo h2{
+  text-align: center;
+}
+.todo button{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.Todo {
+  margin: 30px 15px;
+
+  border: 1px solid #bfd0f2;
+  border-radius: 4px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  transition: border-color .3s ease-in-out,box-shadow .25s ease-in-out;
+}
+
+.Todo:hover {
+  border-color: red;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.175)!important;
+}
+
+.Todo-title {
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0,0,0,.5);
+  text-align: left;
+
+}
+
+.Todo-description {
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.Todo-date{
+  font-style: italic;
+  font-size: 10px;
+  float:right;
+}
